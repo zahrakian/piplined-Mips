@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+sign_extended instance_name (
+    .sign_extend_input(sign_extend_input), 
+    .sign_extend_output(sign_extend_output)
+    );
+
+

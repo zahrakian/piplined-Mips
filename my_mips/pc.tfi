@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+pc instance_name (
+    .next_instruction_address(next_instruction_address), 
+    .clk(clk), 
+    .hit(hit), 
+    .current_instruction_address(current_instruction_address)
+    );
+
+

@@ -1,0 +1,10 @@
+[Inputs]
+clk
+hit
+=next_instruction_address[15:0]=
+[Outputs]
+=current_instruction_address[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel pc
+
