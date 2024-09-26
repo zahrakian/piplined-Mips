@@ -1,0 +1,11 @@
+[Inputs]
+clk
+=a[15:0]=
+=b[15:0]=
+[Outputs]
+validity
+=result[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Multiplier
+

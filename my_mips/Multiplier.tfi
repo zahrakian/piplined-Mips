@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+Multiplier instance_name (
+    .clk(clk), 
+    .a(a), 
+    .b(b), 
+    .result(result), 
+    .validity(validity)
+    );
+
+

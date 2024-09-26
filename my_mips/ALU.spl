@@ -1,0 +1,13 @@
+[Inputs]
+clk
+=ALU_control[2:0]=
+=ALU_input_1[15:0]=
+=ALU_input_2[15:0]=
+=func[3:0]=
+[Outputs]
+Zero
+=ALU_Result[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel ALU
+

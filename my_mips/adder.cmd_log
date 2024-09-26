@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj my_mips -o "D:/data/university/az memari/hws/hw1/all/my_mips/adder.tfi" -lib work "D:/data/university/az memari/hws/hw1/all/my_mips//adder.v" -module adder -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj my_mips -o "D:/data/university/az memari/hws/hw1/all/my_mips/adder.tfi" -lib work "D:/data/university/az memari/hws/hw1/all/my_mips//adder.v" -module adder -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

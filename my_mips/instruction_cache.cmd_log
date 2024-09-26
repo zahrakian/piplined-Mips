@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj my_mips -o "D:/data/university/az memari/hws/hw1/all/my_mips/instruction_cache.tfi" -lib work "D:/data/university/az memari/hws/hw1/all/my_mips//instruction_cache.v" -module instruction_cache -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

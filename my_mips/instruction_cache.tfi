@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+instruction_cache instance_name (
+    .cache_instruction_input(cache_instruction_input), 
+    .cache_dataline_input(cache_dataline_input), 
+    .clk(clk), 
+    .cache_instruction_output(cache_instruction_output), 
+    .hit(hit)
+    );
+
+

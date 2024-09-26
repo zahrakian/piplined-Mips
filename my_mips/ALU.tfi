@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+ALU instance_name (
+    .clk(clk), 
+    .ALU_control(ALU_control), 
+    .ALU_input_1(ALU_input_1), 
+    .ALU_input_2(ALU_input_2), 
+    .func(func), 
+    .ALU_Result(ALU_Result), 
+    .Zero(Zero)
+    );
+
+

@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+multiplexer2_1 instance_name (
+    .mux_input_line0(mux_input_line0), 
+    .mux_input_line1(mux_input_line1), 
+    .select_line(select_line), 
+    .mux_output(mux_output)
+    );
+
+

@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+instruction_memory instance_name (
+    .instrtction_memory_input_address(instrtction_memory_input_address), 
+    .clk(clk), 
+    .instruction_memory_output(instruction_memory_output)
+    );
+
+

@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+divide instance_name (
+    .divisor(divisor), 
+    .dividend(dividend), 
+    .clk(clk), 
+    .validity(validity), 
+    .quotient_remainder(quotient_remainder)
+    );
+
+

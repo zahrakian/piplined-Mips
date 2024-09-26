@@ -1,0 +1,3 @@
+vhdtdtfi -lang verilog -prj my_mips -o "D:/data/university/az memari/hws/hw1/all/my_mips/Multiplier.tfi" -lib work "D:/data/university/az memari/hws/hw1/all/my_mips//Multiplier.v" -module Multiplier -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work {D:/data/university/az memari/hws/hw1/all/my_mips/Multiplier.v} -lang verilog -prj my_mips -o Multiplier.spl -module Multiplier -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 Multiplier.spl {D:/data/university/az memari/hws/hw1/all/my_mips/Multiplier.sym} 

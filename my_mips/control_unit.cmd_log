@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj my_mips -o "D:/data/university/az memari/hws/hw1/all/my_mips/control_unit.tfi" -lib work "D:/data/university/az memari/hws/hw1/all/my_mips//control_unit.v" -module control_unit -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

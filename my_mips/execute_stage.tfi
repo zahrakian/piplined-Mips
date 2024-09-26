@@ -1,0 +1,22 @@
+
+
+
+// Instantiate the module
+execute_stage instance_name (
+    .clk(clk), 
+    .adder_in(adder_in), 
+    .regfile_read_data_1_in(regfile_read_data_1_in), 
+    .regfile_read_data_2_in(regfile_read_data_2_in), 
+    .sign_extended_input(sign_extended_input), 
+    .rt_in(rt_in), 
+    .rd_in(rd_in), 
+    .RegDst_in(RegDst_in), 
+    .ALUSrc_in(ALUSrc_in), 
+    .ALUOp_in(ALUOp_in), 
+    .ALU_Result(ALU_Result), 
+    .adder_out(adder_out), 
+    .Zero(Zero), 
+    .mux_rd_rt_output(mux_rd_rt_output)
+    );
+
+

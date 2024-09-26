@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+MEM_WB instance_name (
+    .clk(clk), 
+    .memory_read_data_in(memory_read_data_in), 
+    .alu_result_in(alu_result_in), 
+    .mux_rd_rt_in(mux_rd_rt_in), 
+    .MemToReg_in(MemToReg_in), 
+    .RegWrite_in(RegWrite_in), 
+    .hit_in(hit_in), 
+    .memory_read_data_out(memory_read_data_out), 
+    .alu_result_out(alu_result_out), 
+    .mux_rd_rt_out(mux_rd_rt_out), 
+    .MemToReg_out(MemToReg_out), 
+    .RegWrite_out(RegWrite_out)
+    );
+
+

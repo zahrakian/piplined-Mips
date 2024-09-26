@@ -1,0 +1,14 @@
+
+
+
+// Instantiate the module
+IF_ID instance_name (
+    .clk(clk), 
+    .adder_input(adder_input), 
+    .instruction_input(instruction_input), 
+    .hit_fetch_input(hit_fetch_input), 
+    .addr_output(addr_output), 
+    .instruction_output(instruction_output)
+    );
+
+

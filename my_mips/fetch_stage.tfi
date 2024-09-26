@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+fetch_stage instance_name (
+    .branch_target(branch_target), 
+    .PcSrc(PcSrc), 
+    .clk(clk), 
+    .instruction_fetch_output(instruction_fetch_output), 
+    .fetch_adderess_output(fetch_adderess_output), 
+    .adder_output(adder_output), 
+    .hit_fetch_output(hit_fetch_output)
+    );
+
+

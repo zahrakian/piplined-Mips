@@ -1,0 +1,26 @@
+
+
+
+// Instantiate the module
+decode_stage instance_name (
+    .clk(clk), 
+    .instruction(instruction), 
+    .regfile_write_data(regfile_write_data), 
+    .regfile_write_register(regfile_write_register), 
+    .RegWrite_out(RegWrite_out), 
+    .regfile_read_data_1(regfile_read_data_1), 
+    .regfile_read_data_2(regfile_read_data_2), 
+    .sign_extended_output(sign_extended_output), 
+    .rt(rt), 
+    .rd(rd), 
+    .ALUOp(ALUOp), 
+    .RegDst(RegDst), 
+    .ALUSrc(ALUSrc), 
+    .MemToReg(MemToReg), 
+    .RegWrite(RegWrite), 
+    .MemRead(MemRead), 
+    .MemWrite(MemWrite), 
+    .Branch(Branch)
+    );
+
+

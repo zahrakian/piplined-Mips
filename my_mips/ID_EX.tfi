@@ -1,0 +1,38 @@
+
+
+
+// Instantiate the module
+ID_EX instance_name (
+    .clk(clk), 
+    .hit_in(hit_in), 
+    .adder_in(adder_in), 
+    .sign_extended_input(sign_extended_input), 
+    .regfile_read_data_1_in(regfile_read_data_1_in), 
+    .regfile_read_data_2_in(regfile_read_data_2_in), 
+    .rt_in(rt_in), 
+    .rd_in(rd_in), 
+    .ALUOp_in(ALUOp_in), 
+    .RegDst_in(RegDst_in), 
+    .ALUSrc_in(ALUSrc_in), 
+    .MemToReg_in(MemToReg_in), 
+    .RegWrite_in(RegWrite_in), 
+    .MemRead_in(MemRead_in), 
+    .MemWrite_in(MemWrite_in), 
+    .Branch_in(Branch_in), 
+    .adder_out(adder_out), 
+    .sign_extended_output(sign_extended_output), 
+    .regfile_read_data_1_out(regfile_read_data_1_out), 
+    .regfile_read_data_2_out(regfile_read_data_2_out), 
+    .rt_out(rt_out), 
+    .rd_out(rd_out), 
+    .RegDst_out(RegDst_out), 
+    .ALUSrc_out(ALUSrc_out), 
+    .MemToReg_out(MemToReg_out), 
+    .RegWrite_out(RegWrite_out), 
+    .MemRead_out(MemRead_out), 
+    .MemWrite_out(MemWrite_out), 
+    .Branch_out(Branch_out), 
+    .ALUOp_out(ALUOp_out)
+    );
+
+
